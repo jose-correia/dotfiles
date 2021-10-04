@@ -10,4 +10,4 @@
 !.config/nvim
 .exports.local
 
-.privzshrc.sh
+.privzshrc

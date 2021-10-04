@@ -1,0 +1,7 @@
+function encode() {
+    echo -n "$1" | base64
+}
+
+function decode() {
+    echo "$1" | base64 --decode
+}
