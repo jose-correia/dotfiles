@@ -144,7 +144,7 @@ set nobackup
 set nowritebackup
 
 " Give more space for displaying messages.
-set cmdheight=2
+set cmdheight=1
 
 " Having longer updatetime (default is 4000 ms = 4 s) leads to noticeable
 " delays and poor user experience.
@@ -296,6 +296,7 @@ let g:glow_binary_path = $HOME . "/bin"
 
 " Floaterm
 let g:floaterm_keymap_toggle = '<Leader>t'
+let g:floaterm_height = 0.9
 
 " Dashboard
 let g:dashboard_default_executive ='fzf'
