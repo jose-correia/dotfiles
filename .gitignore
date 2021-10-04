@@ -1,0 +1,11 @@
+# working files
+.vim/viminfo
+.vim/swaps/*
+.vim/undo
+
+# Compiled Python files
+*.pyc
+
+.config/*
+!.config/nvim
+.exports.local
