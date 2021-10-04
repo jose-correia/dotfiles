@@ -9,3 +9,5 @@
 .config/*
 !.config/nvim
 .exports.local
+
+.privzshrc.sh
