@@ -1,5 +1,6 @@
 [core]
 	excludesfile = /Users/correia/.gitignore_global
+    editor = nvim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 

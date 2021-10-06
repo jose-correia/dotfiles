@@ -27,7 +27,6 @@ Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'dense-analysis/ale'
 Plug 'kyazdani42/nvim-web-devicons'
-Plug 'romgrk/barbar.nvim'
 
 call plug#end()
 
@@ -91,8 +90,9 @@ nmap sp :split<cr>
 
 " Resize Vsplits
 nmap <C-vr> :vertical resize +5<cr>
-nmap 25 :vertical resize 40<cr>
-nmap 75 :vertical resize 120<cr>
+nmap v25 :vertical resize 40<cr>
+nmap v50 :vertical resize 80<cr>
+nmap v75 :vertical resize 120<cr>
 
 " FZF
 nnoremap <Leader>w :FZF<cr>
