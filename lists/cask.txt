@@ -1,0 +1,9 @@
+discord
+docker
+firefox
+iterm2
+karabiner-elements
+ngrok
+postman
+sourcetree
+typora
