@@ -29,6 +29,7 @@ python@3.9
 ripgrep
 six
 tmux
+wtfutil
 z
 zsh
 zsh-autosuggestions

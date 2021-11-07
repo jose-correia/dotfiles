@@ -6,8 +6,6 @@
 # Compiled Python files
 *.pyc
 
-.config/*
-!.config/nvim
 .exports.local
 
 .privzshrc
