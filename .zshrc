@@ -1,5 +1,4 @@
-echo "\"The only way to do great work is to love what you do.\""
-echo "- S.J."
+cowsay "S.J. - \"The only way to do great work is to love what you do.\""
 
 if [ -f ~/.privzshrc ]; then
     source ~/.privzshrc

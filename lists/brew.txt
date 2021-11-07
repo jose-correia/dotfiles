@@ -1,6 +1,7 @@
 ack
 aws-iam-authenticator
 ca-certificates
+cowsay
 flake8
 fzf
 gdbm
