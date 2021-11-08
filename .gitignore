@@ -8,4 +8,7 @@
 
 .exports.local
 
+config/wtf/
+!config/wtf/config.yml
+
 .privzshrc
