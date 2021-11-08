@@ -19,6 +19,7 @@ kubectx
 kubernetes-cli
 libev
 luv
+multipass
 neovim
 node
 openssl
