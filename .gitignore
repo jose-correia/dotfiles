@@ -8,7 +8,7 @@
 
 .exports.local
 
-config/wtf/
-!config/wtf/config.yml
+.config/wtf/gcal
+.config/wtf/*.json
 
 .privzshrc
