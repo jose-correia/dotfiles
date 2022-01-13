@@ -1,5 +1,5 @@
 [core]
-	excludesfile = /Users/correia/.gitignore_global
+	excludesfile = /Users/josecorreia/.gitignore_global
     editor = nvim
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
@@ -8,8 +8,8 @@
 	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
 [user]
-	name = jose_correia
-	email = jose.meneses.correia@unbabel.com
+	name = José Correia
+	email = josec@adobe.com
 [alias]
     # list files which have changed since REVIEW_BASE
     # (REVIEW_BASE defaults to 'master' in my zshrc)
@@ -28,3 +28,7 @@
     # instead of opening all files:
     # git reviewone foo.js bar.js
     reviewone = !nvim -p +\"tabdo Gvdiff $REVIEW_BASE\" +\"let g:gitgutter_diff_base = '$REVIEW_BASE'\"
+[commit]
+	template = /Users/josecorreia/.stCommitMsg
+[credential]
+	helper = store

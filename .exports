@@ -1,9 +1,22 @@
 export GOPATH=$HOME/golang
 export GO111MODULE="on"
 
+export MAVEN_HOME=$HOME/programs/apache-maven-3.8.4
+export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
+
+export PYENV_HOME=$HOME/.pyenv
+
+export KUBECONFIG=$HOME/.config/kubeconfig.yaml
+
 export PATH=$HOME/bin:/usr/local/bin:$HOME/golang/bin:$PATH
 export PATH=$PATH:/usr/local/opt/go/libexec/bin:/opt/apache-maven/bin
+export PATH=$PATH:$PYENV_HOME/bin
 export PATH=/usr/local/bin/python3.7:$PATH
+export PATH=$PATH:$MAVEN_HOME/bin
+
+# pyenv setup
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 export REVIEW_BASE="master"
 
