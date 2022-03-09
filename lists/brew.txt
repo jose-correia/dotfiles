@@ -3,6 +3,7 @@ aws-iam-authenticator
 ca-certificates
 cowsay
 flake8
+fig
 fzf
 gdbm
 gettext
