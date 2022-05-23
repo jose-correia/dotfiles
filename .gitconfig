@@ -32,3 +32,5 @@
 	template = /Users/josecorreia/.stCommitMsg
 [credential]
 	helper = store
+[http]
+	sslverify = true

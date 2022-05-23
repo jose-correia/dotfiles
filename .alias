@@ -1,8 +1,33 @@
+
+alias e="export"
+
+# Programs shortcuts
+alias use_java_8="jenv shell 1.8"
+alias use_java_11="jenv shell 11"
+alias start_docker="colima start"
+
+alias go="go1.18"
+
+# SSH servers
+alias ssh_jenkins="ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -i ~/.ssh/jenkins_vm jnks4all@fccs-ds.ci.corp.adobe.com"
+alias ssh_jenkins_2="ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -i ~/.ssh/jenkins_vm_2 jnks4all@fccs-ds-2.ci.corp.adobe.com"
+alias ssh_jenkins_3="ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -i ~/.ssh/jenkins_vm jnks4all@fccs-ds-3.ci.corp.adobe.com"
+alias ssh_jenkins_node_1="ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -i ~/.ssh/jenkins_vm jenkins@fccs-ds-3-node-1.corp.adobe.com"
+alias ssh_jenkins_node_2="ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -i ~/.ssh/jenkins_vm jenkins@fccs-ds-3-node-2.corp.adobe.com"
+
+alias ssh_jeec="ssh -i ~/.ssh/id_rsa jeecist@51.11.191.17"
+
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
+
+# Vim
+alias vimconfig="nvim ~/.config/nvim/init.vim"
 alias vim="nvim"
 alias v="nvim"
-alias e="export"
+alias vf="vim-fzf"
+alias vw="vim -c ':VimwikiIndex'"
+
+#Tmux
 alias t="tmux"
 alias tls="tmux ls"
 alias ta="tmux attach -t"
@@ -10,6 +35,8 @@ alias td="tmux detach"
 alias tks="tmux kill-session -t"
 alias tn="tmux new -t" #tn -s database
 alias trs="tmux rename-session" #tn -t 0 database
+
+#Kubernetes
 alias kk="k9s"
 alias k="kubectl"
 alias kgp="kubectl get pods"
@@ -22,17 +49,23 @@ alias kdd="kubectl describe deployment"
 alias kei="kubectl exec -it"
 alias krr="kubectl rollout restart"
 alias ksd="kubectl scale deployment"
+
+#Git
+alias gch="git-fzf-checkout"
+alias branch="git branch | fzf-tmux -d 15"
 alias gcb="git checkout -b"
-alias gb="git branch-select"
+alias gb="branch"
 alias gcm="git commit -m"
 alias gpf="git push -f"
 alias gs="git status"
 alias gl="tig"
-alias gh="git heatmap" # depends on https://githubmemory.com/repo/jez/git-heatmap
+#alias gh="git heatmap" # depends on https://githubmemory.com/repo/jez/git-heatmap
 alias review="git review"
 alias gri="git rebase -i"
 alias gp="git push"
 alias ga="git add"
+
+#Docker
 alias dei="docker exec -it"
 alias dcu="docker-compose up"
 alias dps="docker ps"

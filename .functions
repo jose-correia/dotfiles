@@ -5,3 +5,7 @@ function encode() {
 function decode() {
     echo "$1" | base64 --decode
 }
+
+function pod() {
+    sky ls pods | tail -n +2 | head -$1 | tail -1 | awk -F ' ' '{print $1}'
+}
