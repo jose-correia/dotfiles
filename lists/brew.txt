@@ -2,6 +2,7 @@ ack
 aws-iam-authenticator
 ca-certificates
 cowsay
+dive
 flake8
 fig
 fzf
@@ -12,8 +13,10 @@ git-filter-repo
 git-heatmap
 glab
 go
+helm
 icu4c
 jemalloc
+jenv
 k9s
 krb5
 kubectx
@@ -22,15 +25,18 @@ libev
 luv
 multipass
 neovim
+ngrok
 node
 openssl
 pipenv
 poetry
 postgresql
+pyenv
 python@3.9
 ripgrep
 six
 tmux
+wget
 wtfutil
 z
 zsh
