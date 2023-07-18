@@ -1,12 +1,16 @@
 
 alias e="export"
 
+# Adobe alias
+alias slp="sky ls pods"
+alias sda="sky desc author"
+alias sdp="sky desc publish"
+alias su="sky use"
+
 # Programs shortcuts
 alias use_java_8="jenv shell 1.8"
 alias use_java_11="jenv shell 11"
 alias start_docker="colima start"
-
-alias go="go1.18"
 
 # SSH servers
 alias ssh_jenkins="ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 -i ~/.ssh/jenkins_vm jnks4all@fccs-ds.ci.corp.adobe.com"

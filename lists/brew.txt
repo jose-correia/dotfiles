@@ -10,7 +10,6 @@ gdbm
 gettext
 git
 git-filter-repo
-git-heatmap
 glab
 go
 helm
