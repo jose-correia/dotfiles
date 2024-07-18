@@ -9,3 +9,8 @@ function decode() {
 function pod() {
     sky ls pods | tail -n +2 | head -$1 | tail -1 | awk -F ' ' '{print $1}'
 }
+
+function devNamespace() {
+    kubectl config use-context ethos14-stage-va7
+    kubectl config set-context --current --namespace=ns-team-aem-josec-dev
+}
